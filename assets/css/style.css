@@ -389,3 +389,148 @@ main{
     background: #0ea5e9;
     transform: scale(1.05);
 }
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 900px){
+
+/* navbar */
+.navbar{
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 15px;
+}
+
+.navlogo{
+    margin-bottom: 10px;
+}
+
+.navList ul{
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.navList ul li a{
+    font-size: 1rem;
+}
+
+/* main */
+main{
+    margin-top: 2rem;
+    padding: 0 15px;
+}
+
+.mainContent{
+    width: 100%;
+    text-align: center;
+}
+
+.h2name{
+    font-size: 1.8rem;
+}
+
+.p1{
+    font-size: 1.1rem;
+}
+
+.p2{
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+}
+
+.btn{
+    margin-left: 0;
+    margin-top: 2rem;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+}
+
+/* footer */
+.footer{
+    height: auto;
+    padding: 20px 0;
+}
+
+.footer-content{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+/* contact page */
+.mainContent-contact{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.details{
+    max-width: 100%;
+    text-align: center;
+}
+
+.form-content{
+    max-width: 100%;
+    width: 100%;
+}
+
+/* skills */
+.skills-section{
+    padding: 30px 15px;
+}
+
+.skills-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-box{
+    width: 90%;
+}
+
+/* about */
+.about-section{
+    padding: 30px 15px;
+}
+
+.about-section h1{
+    font-size: 26px;
+}
+
+.about-container{
+    font-size: 16px;
+}
+
+/* project */
+.project-section{
+    padding: 30px 15px;
+}
+
+.project-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card{
+    width: 95%;
+    padding: 20px;
+}
+
+.project-card h2{
+    font-size: 20px;
+}
+
+.project-card p{
+    font-size: 14px;
+}
+
+.project-links a{
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+}
