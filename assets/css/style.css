@@ -390,32 +390,58 @@ main{
     transform: scale(1.05);
 }
 
-/* =========================
+/* 
    MOBILE RESPONSIVE DESIGN
-   ========================= */
+   */
 
 @media (max-width: 900px){
 
 /* navbar */
+
+@media (max-width:768px){
+
 .navbar{
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     height: auto;
-    padding: 15px;
+    padding: 15px 0;
 }
 
-.navlogo{
-    margin-bottom: 10px;
+/* logo center */
+.navlogo a{
+    font-size: 1.6rem;
+}
+
+/* menu vertical */
+.navList{
+    width: 100%;
+    margin-top: 10px;
 }
 
 .navList ul{
     flex-direction: column;
     gap: 12px;
-    align-items: center;
+    width: 100%;
+    padding: 0;
 }
 
+.navList ul li{
+    width: 100%;
+    text-align: center;
+}
+
+/* links full width button type */
 .navList ul li a{
+    display: block;
+    width: 100%;
+    padding: 12px 0;
     font-size: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.navList ul li a:hover{
+    background: #f1f5f9;
+}
 }
 
 /* main */
